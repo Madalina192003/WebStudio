@@ -293,61 +293,114 @@
 
     <!--Footer section-->
     <div class="container">
-      <footer class="ftr">
-        <div class="container">
+  <footer class="ftr">
+    <div class="container">
 
-          
-          <div>
-            <a href="#" class="logo2"
-              ><span class="webstoodio">Web</span
-              ><span class="studioo">Studio</span></a
-            >
-          </div>
+      
+      <div>
+        <a href="#" class="logo2">
+          <span class="webstoodio">Web</span
+          ><span class="studioo">Studio</span>
+        </a>
+      </div>
 
-           <section class="ftr_section">
-              <h3 class="ftr_title">Find us on</h3>
-              <div>
-            <ul class="list_icons">
-              <li><a href=""><svg class="ftr_icons">
+
+<section class="section-details">
+
+<section class="ftr_section">
+        <h3 class="ftr_title">Find us on</h3>
+        <div>
+          <ul class="list_icons">
+            <li>
+              <a href=""><svg class="ftr_icons">
                 <use href="./images/icons.svg#icon-instagram"/>
-              </svg></a></li>
-              <li><a href=""><svg class="ftr_icons" >
+              </svg></a>
+            </li>
+            <li>
+              <a href=""><svg class="ftr_icons">
                 <use href="./images/icons.svg#icon-twitter"/>
-              </svg></a></li>
-              <li><a href=""><svg class="ftr_icons">
+              </svg></a>
+            </li>
+            <li>
+              <a href=""><svg class="ftr_icons">
                 <use href="./images/icons.svg#icon-facebook"/>
-              </svg></a></li>
-              <li><a href=""><svg class="ftr_icons">
+              </svg></a>
+            </li>
+            <li>
+              <a href=""><svg class="ftr_icons">
                 <use href="./images/icons.svg#icon-linkedin"/>
-              </svg></a></li>
-              </ul>
-              </div>
-              </section>
-
-          <div class="ftr-info">
-            <address class="adrs">
-              695 Park Ave, NY 10065, USA <br />
-              <a href="mailto:info@devstudio.com" class="info"
-                >info@devstudio.com</a
-              >
-              <br />
-              <a href="tel:12127724150 " class="infoo">+1 212-772-4150</a>
-
-            </address>
-           
+              </svg></a>
+            </li>
+          </ul>
         </div>
-          </div>
-        </div>
+      </section>
+
+
+
+
+<section class="subscribe-section">
+  <div>
+    <h3 class="title-form">Subscribe to the newsletter</h3>
+        <form name="subscribe__form" class="subscribe__form">
+          <label class="ftr-form__label">
+            <input type="email" name="useremail" placeholder="E-mail" class=""/>
+          </label>
+          <button type="submit" class="ftr-form__btn">
+            Subscribe
+            <svg width="12px" height="12px">
+              <use href="./images/icon-subscribe.svg#icon-subscribe"></use>
+            </svg>
+          </button>
+        </form>
+      </div>
+      </section>
+
+      
+</section>
+      <div class="ftr-info">
+        <address class="adrs">
+          695 Park Ave, NY 10065, USA <br />
+          <a href="mailto:info@devstudio.com" class="info">info@devstudio.com</a><br />
+          <a href="tel:12127724150" class="infoo">+1 212-772-4150</a>
+        </address>
+      </div>
+    </div>
+  </footer>
+</div>
+
         
-      </footer>
-
 
       <div data-modal class="is-hidden">
 <div data-modal-content>
-<h2></h2>
-<p></p>
 <button data-modal-close type="button">X</button>
+<h2 class="modal-title">Leave your information and we'll call you back</h2>
+<form name="modal-form" class="modal-form">
+<label class="modal-form__position">Name <input type="text" name="username" class="modal-form__input"/> 
+  <svg width="12px" height="12px"><use href="./images/icons-form.svg#icon-person"></use></svg>
+</label>
+<label class="modal-form__position">Telephone<input type="tel" name="userphone" class="modal-form__input"/>
+<svg width="12px" height="12px"><use href="./images/icons-form.svg#icon-phone"></use></svg>
+</label>
+
+<label class="modal-form__position">E-mail
+  <input type="email" name="useremail" class="modal-form__input"/>
+<svg width="12px" height="12px"><use href="./images/icons-form.svg#icon-email"></use></svg>
+</label>
+
+<label class="modal-form__position">Comments<textarea name="mesaj" placeholder="Enter the text" class="modal-form__comments"></textarea></label>
+<label class="modal-form__position modal-form__checked"><input type="checkbox" name="agree" value="agree" class="modal-form__input"/>
+  <span class="replace-checkbox modal-checkbox__position">
+<svg width="12px" height="12px"><use href="./images/icon-bifa.svg#icon-bifa"></use></svg>
+
+  </span>
+ 
+  I agree with the letter and accept the <a href="#" class="condition"> Terms and Conditions</a></label>
+<button type="submit" class="modal-form__btn">Send</button>
 </div>
+</form>
+
+
+
 
       </div>
 
